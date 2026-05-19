@@ -1,0 +1,6 @@
+LibraryDB/
+derby.log
+*.class
+out/
+lib/
+sources.txt
