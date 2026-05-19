@@ -1,0 +1,19 @@
+Start App
+   ↓
+Register Member (ID=6) → Rahul Sharma
+   ↓
+Add Book (ID=11) → Java Programming
+   ↓
+Borrow Book 1 → Member 6 (LoanID=1, due in 14 days)
+   ↓
+View Loans → See active loan
+   ↓
+Return Book → LoanID=1 returned
+   ↓
+ACID Demos → Savepoint + Constraint violation
+   ↓
+Benchmarks → Performance report generated
+   ↓
+Verify Indexes → Confirm all 5 indexes exist
+   ↓
+Exit → Derby shuts down cleanly
