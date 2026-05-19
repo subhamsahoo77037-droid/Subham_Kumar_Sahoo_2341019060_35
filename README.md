@@ -9,30 +9,34 @@ A complete console-based **Library Loan Management System** built using **Java J
 ---
 
 ## Project Structure
+
+```
 Subham_Kumar_Sahoo_2341019060_35/
+│
 ├── LibraryLoanSystem/
 │   ├── src/main/java/com/library/
 │   │   ├── connection/
-│   │   │   └── ConnectionManager.java   → Derby DB setup, connection, indexes
+│   │   │   └── ConnectionManager.java
 │   │   ├── transaction/
-│   │   │   └── TransactionService.java  → Commit, Rollback, Savepoints
+│   │   │   └── TransactionService.java
 │   │   ├── business/
-│   │   │   └── BusinessLogic.java       → CRUD operations (Members, Books, Loans)
+│   │   │   └── BusinessLogic.java
 │   │   ├── benchmark/
-│   │   │   └── PerformanceEvaluator.java → JDBC performance benchmarks
+│   │   │   └── PerformanceEvaluator.java
 │   │   ├── model/
 │   │   │   ├── Member.java
 │   │   │   ├── Book.java
 │   │   │   └── Loan.java
 │   │   └── ui/
-│   │       └── MainApp.java             → Main menu CLI interface
+│   │       └── MainApp.java
 │   └── docs/
-│       └── analysis.md                  → Transaction & performance analysis
-├── performance_report.csv               → Auto-generated benchmark results
-├── flow_diagram.txt                     → System flow diagram
-└── start.bat                            → Windows run script
-
----
+│       └── analysis.md
+│
+├── performance_report.csv
+├── flow_diagram.txt
+├── start.bat
+└── .gitignore
+```
 
 ## Database Schema
 Three normalized tables created automatically on first run:
